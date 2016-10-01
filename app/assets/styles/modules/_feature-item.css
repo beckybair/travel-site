@@ -1,7 +1,11 @@
 /* Feature Item */
 .feature-item {
-  padding-bottom: 2.5rem;
   position: relative;
+  padding-bottom: 2.5rem;
+
+  @mixin atSmall {
+      padding-left: 94px;
+  }
 
   &__icon {
     display: block;
@@ -24,9 +28,5 @@
       margin-top: 1em;
       text-align: left;
     }
-  }
-
-  @mixin atSmall {
-      padding-left: 94px;
   }
 }
