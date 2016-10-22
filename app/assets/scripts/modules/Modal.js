@@ -1,4 +1,4 @@
-/* Modal */
+// Modal
 import $ from 'jquery';
 
 class Modal {

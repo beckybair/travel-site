@@ -1,4 +1,4 @@
-/* MainMenu */
+// MainMenu
 import $ from 'jquery';
 
 class MobileMenu {
