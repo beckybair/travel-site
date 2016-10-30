@@ -32,9 +32,9 @@ class StickyHeader {
       element: this.headerTriggerElement[0],
       handler: function(direction) {
         if (direction == "down") {
-          that.siteHeader.addClass("site-header--dark");
+          that.siteHeader.addClass("site-header__dark");
         } else {
-          that.siteHeader.removeClass("site-header--dark");
+          that.siteHeader.removeClass("site-header__dark");
         }
       }
     });
